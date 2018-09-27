@@ -1,0 +1,52 @@
+body {
+	font-family: Helvetica;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1 {
+  font-size: 2.3em;
+  line-height: 1.3em;
+  margin: 15px 0;
+  font-weight: 300;
+}
+
+p {
+  margin: 0 0 1.5em 0;
+}
+
+ #header {
+ 	background: #7289DA;
+ 	color: white;
+ 	height: 80px;
+
+ }
+ #profile-header{
+	 float: left;
+
+ }
+ 	#header a {
+ 		color: white;
+ 	}
+
+#title-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+
+
+	#title-header .style-title {
+		display: block;
+		font-weight: 900;
+		font-size: 1.9em;
+	}
+
+
+
+
+
+
