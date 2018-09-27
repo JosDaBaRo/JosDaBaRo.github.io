@@ -7,6 +7,8 @@ test.forEach(function(element){
 	i++;
 })
 };
-$("aSelect").click(function(event){
-		$("#destination").load("../apple.html", function(){});
+$("aLink").click(function(event){
+		$("#destination").load("../apple.html", function(){
+			alert("I loaded");
+		});
 	});
