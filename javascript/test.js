@@ -8,7 +8,5 @@ test.forEach(function(element){
 })
 };
 $("li a").click(function(event){
-		$("#destination").load("../apple.html", function(){
-			alert("I loaded");
-		});
+		$("#destination").load("../apple.html");
 	});
