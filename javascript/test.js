@@ -8,5 +8,5 @@ test.forEach(function(element){
 })
 };
 $("aSelect").click(function(event){
-		$("#destination").load("../apple.html");
+		$("#destination").load("../apple.html", function(){});
 	});
